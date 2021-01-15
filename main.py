@@ -115,7 +115,7 @@ def notify(msg):
         trayicon.hide()
 
 
-if __name__ == "__main__":
+if __name__=="__main__":
     try:
         pytesseract.get_tesseract_version()
     except EnvironmentError:
